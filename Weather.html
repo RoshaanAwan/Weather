@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="Weather.css">
+</head>
+
+<body>
+    <div class="center">
+
+        <div class="card">
+            <div class="search">
+                <input type="text" placeholder="Enter Your City Name" spellcheck="false">
+                <button><i class="ri-search-line"></i></button>
+            </div>
+            <div class="error">
+                <p>InValid City Name</p>
+            </div>
+            <div class="weather">
+                <img src="./clouds.png" class="weather-icon" alt="">
+                <h1 class="rain-temp">22°C</h1>
+                <h2 class="city">Lahore</h2>
+                <div class="details">
+                    <div class="humidity-section">
+                        <i class="ri-mist-line humidity-icon"></i>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                    <div class="wind-section">
+                        <i class="ri-windy-line wind-icon"></i>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./weather.js"></script>
+</body>
+
+</html>
